@@ -5,35 +5,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0eedf11-95a3-415d-8268-73d1b64d9d07" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithmAnalysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major black.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major black.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 1.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 2.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 3.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 4.wav.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recordings/C Major corchea 5.wav.asd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;juliatogr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/juliatogr/AlgorithmAnalysis.git&quot;,
+    &quot;accountId&quot;: &quot;4117c668-15bf-4255-94a1-66f524f2780d&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2dERCsNpf3ySdTE1aJeogu6yZOn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.carga_datos.executor": "Run",
+    "Python.lectura_midi.executor": "Run",
+    "Python.load.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/juliatortosa/PycharmProjects/AlgorithmAnalysis",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/recordings" />
+      <recent name="$PROJECT_DIR$/pitch_extractors" />
+      <recent name="$PROJECT_DIR$/groundtruth_generated" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/recordings" />
+      <recent name="$PROJECT_DIR$/groundtruth_generated" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="AlgorithmAnalysis" />
@@ -62,7 +124,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -74,8 +137,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709571127480</updated>
+      <workItem from="1710585407269" duration="880000" />
+      <workItem from="1711126247244" duration="7206000" />
+      <workItem from="1711387647155" duration="23417000" />
+      <workItem from="1713126854417" duration="55000" />
+      <workItem from="1713126942466" duration="21000" />
+      <workItem from="1713196983172" duration="22339000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -89,6 +161,10 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1709572134375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1713805163818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$load.coverage" NAME="load Coverage Results" MODIFIED="1713979042907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets/traditional-flute-dataset" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$test.coverage" NAME="test Coverage Results" MODIFIED="1710170187975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$carga_datos.coverage" NAME="carga_datos Coverage Results" MODIFIED="1713979944481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$lectura_midi.coverage" NAME="lectura_midi Coverage Results" MODIFIED="1713981348643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
