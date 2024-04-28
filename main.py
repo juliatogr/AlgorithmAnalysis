@@ -1,8 +1,38 @@
 import essentia.standard as ess
+
 import mir_eval
 import numpy as np
 import time
 import mido
+
+spectrum = ess.Spectrum()
+w = ess.Windowing(type='hann')
+framesize = 2048
+hopsize = 128
+
+
+def pitchyinprobabilities(frame):
+    pitchyinprobabilities = ess.PitchYinProbabilities(frameSize=framesize)
+    pitches, probabilities, rms = pitchyinprobabilities(frame)
+    return pitches[np.argmax(probabilities)]
+
+def pitchyinfft(frame):
+    spec = spectrum(w(frame))
+    pitchyinfft = ess.PitchYinFFT(frameSize=framesize)
+    pitch, confidence = pitchyinfft(spec)
+    return pitch
+
+def pitchyin(frame):
+
+    pitchyin = ess.PitchYin(frameSize=framesize)
+    pitch, confidence = pitchyin(frame)
+    return pitch
+
+
+def compute_pitches_no_frames(audio, extractor):
+    audio_pitches, _ = extractor(audio)
+    return audio_pitches
+
 
 
 # Load MIDI file and extract pitch and timing information
@@ -32,62 +62,80 @@ def align_pitches(audio_pitches, audio_times, midi_notes):
         aligned_pitches.append(midi_pitch)
     return aligned_pitches, aligned_times
 
-def measure_time(func, *args):
-    start_time = time.time()
-    result = func(*args)
-    elapsed_time = time.time() - start_time
-    return result, elapsed_time
-
-def compute_pitch(audio, algorithm='melodia'):
-    if algorithm == 'melodia':
-        pitch_extractor = ess.PitchMelodia()
-    elif algorithm == 'yin':
-        pitch_extractor = ess.PitchYinFFT()
-    else:
-        raise ValueError("Invalid algorithm name")
-
-    pitches, pitch_confidence = pitch_extractor(audio)
-    return pitches, pitch_confidence
+# def measure_time(func, *args):
+#     start_time = time.time()
+#     result = func(*args)
+#     elapsed_time = time.time() - start_time
+#     return result, elapsed_time
 
 def main():
 
-    # pitch_extractors = [pitch_melodia, pitch_yin, pitch_yin_fft, predominant_pitch_melodia, spectral_peaks]
-    #pitch_extractors = [pitch_melodia]
+    audio_filename = "datasets/recordings/C Scale 1.wav"
+    # midi_filename = "datasets/generated_scales/C Major/C Scale .mid"
 
-    audio_filename = "datasets/recordings/C Major recorded.wav"
-    midi_filename = "datasets/recordings/C Scale .mid"
     audio_loader = ess.MonoLoader(filename=audio_filename)
     audio = audio_loader()
 
-    # Compute pitch using PitchMelodia
-    melodia_pitches, _ = measure_time(compute_pitch, audio, 'melodia')
+    eq_loudness = ess.EqualLoudness()
+    cleaned_audio = eq_loudness(audio)
+    melodia = ess.PitchMelodia(frameSize=framesize, hopSize=hopsize)
+    pitches_melodia = compute_pitches_no_frames(cleaned_audio, melodia)
 
-    # Compute pitch using PitchYin
-    yin_pitches, _ = measure_time(compute_pitch, audio, 'yin')
+    print("*****PitchMelodia*****")
+    # print(type(pitches_melodia)) #numpy.ndarray
+    # print(f'    - pitches: {pitches_melodia}')
+    print(f'    - length {len(pitches_melodia)}')
 
-    # Compute pitch using PitchMelodia
-    melodia_extractor = ess.PitchMelodia()
-    audio_pitches, audio_confidence = melodia_extractor(audio)
+    predominant_melodia = ess.PredominantPitchMelodia(frameSize=framesize, hopSize=hopsize)
+    pitches_predominant_melodia = compute_pitches_no_frames(audio, predominant_melodia)
 
-    # Load MIDI and align pitches
-    midi_notes = load_midi(midi_filename)
-    aligned_pitches, aligned_times = align_pitches(audio_pitches, np.arange(len(audio_pitches)), midi_notes)
+    print("*****PredominantPitchMelodia*****")
+    # print(type(pitches_predominant_melodia)) #numpy.ndarray
+    # print(f'    - pitches: {pitches_predominant_melodia}')
+    print(f'    - length {len(pitches_predominant_melodia)}')
 
-    # Evaluate accuracy
-    accuracy = mir_eval.melody.evaluate(np.asarray(midi_notes)[:,0], np.asarray(midi_notes)[:,1], np.asarray(aligned_pitches), np.asarray(aligned_times))
-    print(f" Melodia Accuracy: {accuracy}")
+    pitches_yin = []
+    pitches_yinfft = []
+    pitches_yinprobabilities = []
 
-    yin_extractor = ess.PitchYin()
-    audio_pitches, audio_confidence = yin_extractor(audio)
+    for frame in ess.FrameGenerator(audio, frameSize=framesize, hopSize=hopsize, startFromZero=True):
+        pitches_yin.append(pitchyin(frame))
+        pitches_yinfft.append(pitchyinfft(frame))
+        pitches_yinprobabilities.append(pitchyinprobabilities(frame))
 
-    # Load MIDI and align pitches
-    midi_notes = load_midi(midi_filename)
-    aligned_pitches, aligned_times = align_pitches(audio_pitches, np.arange(len(audio_pitches)), midi_notes)
+    print("*****PitchYin*****")
+    # print(type(pitches_yin)) #list
+    # print(f'    - pitches: {pitches_yin}')
+    print(f'    - length: {len(pitches_yin)}')
 
-    # Evaluate accuracy
-    accuracy = mir_eval.melody.evaluate(np.asarray(midi_notes)[:, 0], np.asarray(midi_notes)[:, 1],
-                                        np.asarray(aligned_pitches), np.asarray(aligned_times))
-    print(f" Yin Accuracy: {accuracy}")
+    print("*****PitchYinFFT*****")
+    # print(type(pitches_yinfft)) #list
+    # print(f'    - pitches: {pitches_yinfft}')
+    print(f'    - length: {len(pitches_yinfft)}')
+
+    pitch_yin_probabilistic = ess.PitchYinProbabilistic(frameSize=framesize, hopSize=hopsize)
+    pitches_yinprobabilistic, _ = pitch_yin_probabilistic(audio)
+
+    print("*****PitchYinProbabilistic*****")
+    # print(type(pitches_yinprobabilistic))  #numpy.ndarray
+    # print(f'    - pitches: {pitches_yinprobabilistic}')
+    print(f'    - length: {len(pitches_yinprobabilistic)}')
+
+    print("*****PitchYinProbabilities*****")
+    # print(type(pitches_yinprobabilities))  #list
+    # print(f'    - pitches: {pitches_yinprobabilities}')
+    print(f'    - length: {len(pitches_yinprobabilities)}')
+
+
+
+    # midi_notes = load_midi(midi_filename)
+    # aligned_pitches, aligned_times = align_pitches(audio_pitches, np.arange(len(audio_pitches)), midi_notes)
+
+
+    # accuracy = mir_eval.melody.evaluate(np.asarray(midi_notes)[:,0], np.asarray(midi_notes)[:,1], np.asarray(aligned_pitches), np.asarray(aligned_times))
+    # print(f" Melodia Accuracy: {accuracy}")
+
+
 
 if __name__ == "__main__":
     main()

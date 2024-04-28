@@ -15,18 +15,19 @@ def get_midi_info(gt_path):
 
     for msg in general_info_track:
         print(msg)
-        if msg.type == 'set_tempo':
-            print('bpm='+str(mido.tempo2bpm(msg.tempo)))
+        # if msg.type == 'set_tempo':
+        #     print('bpm='+str(mido.tempo2bpm(msg.tempo)))
 
     print('messages')
     for msg in midi.tracks[1]:
         print(msg)
-        if msg.type == 'note_on':
-            freq = 440 * (2**((msg.note - 69)/12))
-            print(freq)
+        # if msg.type == 'note_on':
+        #     freq = 440 * (2**((msg.note - 69)/12))
+        #     print(freq)
 
     return midi
 
 if __name__ == "__main__":
-    midi_filename = "datasets/recordings/C Scale .mid"
+    midi_filename = "datasets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mid"
+    print("path" + midi_filename)
     get_midi_info(midi_filename)
