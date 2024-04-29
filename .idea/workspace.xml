@@ -4,121 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eedf11-95a3-415d-8268-73d1b64d9d07" name="Changes" comment="add all datasets + split files for reading datasets and loading midi">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b0eedf11-95a3-415d-8268-73d1b64d9d07" name="Changes" comment="new structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/exercises/IMSLP237389-PMLP384681-scales-c.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/exercises/IMSLP237389-PMLP384681-scales-c.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.midi" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.midi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-in-a-minor-key-49160.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-minor-key-download-pdf-soprano-recorder-part-49160.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/exercises/Minor scales/[Free-scores.com]_lewis-alastair-scale-study-minor-key-download-pdf-soprano-recorder-part-49160.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/A Major/A Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/A Major/A Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/B Major/B Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/B Major/B Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/C Major/C Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/C Major/C Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/C Major/C Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/C Major/C Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/C Major/C Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/D Major/D Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/D Major/D Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/E Major/E Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/E Major/E Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/28012024193947.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/F Major/F Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/F Major/F Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale (1).mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale (1).mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/scales/G Major/G Major scale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/G Major/G Major scale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Belizean/Belizean_national_anthem__Misc_Traditional_The_Belizean_National_Anthem_Land_of_the_Free.custom_score.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Belizean/Belizean_national_anthem__Misc_Traditional_The_Belizean_National_Anthem_Land_of_the_Free.custom_score.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Belizean/Belizean_national_anthem__Misc_Traditional_The_Belizean_National_Anthem_Land_of_the_Free.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Belizean/Belizean_national_anthem__Misc_Traditional_The_Belizean_National_Anthem_Land_of_the_Free.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Belizean/The_Belizean_National_Anthem.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Belizean/The_Belizean_National_Anthem.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Belizean/The_Belizean_National_Anthem.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Belizean/The_Belizean_National_Anthem.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Canon in D - Pachebel/_Canon_de_Pachelbel_Flauta_dulce_soprano.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Flor de Peral/Flor_de_peral.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Flor de Peral/Flor_de_peral.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Flor de Peral/Flor_de_peral.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Flor de Peral/Flor_de_peral.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Flor de Peral/Flor_de_peral.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Flor de Peral/Flor_de_peral.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Flor de Peral/Flor_de_peral.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Flor de Peral/Flor_de_peral.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Je hais lenfant qui chiale/Itsuki_No_Komoriuta__Traditional__Je_hais_lenfant_qui_chiale.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Je hais lenfant qui chiale/Itsuki_No_Komoriuta__Traditional__Je_hais_lenfant_qui_chiale.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Je hais lenfant qui chiale/Itsuki_No_Komoriuta__Traditional__Je_hais_lenfant_qui_chiale.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Je hais lenfant qui chiale/Itsuki_No_Komoriuta__Traditional__Je_hais_lenfant_qui_chiale.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Je hais lenfant qui chiale/Je_hais_lenfant_qui_chiale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Je hais lenfant qui chiale/Je_hais_lenfant_qui_chiale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Je hais lenfant qui chiale/Je_hais_lenfant_qui_chiale.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Je hais lenfant qui chiale/Je_hais_lenfant_qui_chiale.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Die beiden kleinen Finken/Kling_H_Die_beiden_kleinen_Finken_Recorder_S.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Kling H, Etude 19/Kling_H_Etude_19_Recorder_S.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Megalovania/Megalovania_Soprano_Recorder.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Megalovania/Megalovania_Soprano_Recorder.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Megalovania/Megalovania_Soprano_Recorder.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Megalovania/Megalovania_Soprano_Recorder.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Megalovania/megalovania.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Megalovania/megalovania.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Megalovania/megalovania.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Megalovania/megalovania.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.custom_score.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.custom_score.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Sally's Song/Sallys_Song__Danny_Elfman_for_Recorder.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Saltarello/Saltarello.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Saltarello/Saltarello.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Saltarello/Saltarello.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Saltarello/Saltarello.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Saltarello/Saltarello.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Saltarello/Saltarello.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/Saltarello/Saltarello.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/Saltarello/Saltarello.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mxl" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.mxl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/Soprano recorder sheets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/songs/The Witcher 3 OST/Kaer_Morhen_The_Witcher_3_OST.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/groundtruth_generated/C Major scale.mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Major scale.mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/groundtruth_generated/C Major scale.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/groundtruth_generated/C scale.mid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/groundtruth_generated/C scale.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Major corchea 3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recordings/C Scale 3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Major corchea 4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recordings/C Scale 4.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Major corchea 5.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recordings/C Scale 5.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Major recorded.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recordings/C Scale 1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Scale  2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/recordings/C Scale 2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/recordings/C Scale .mid" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/generated_scales/C Major/C Scale .mid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectura_midi.py" beforeDir="false" afterPath="$PROJECT_DIR$/lectura_midi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/fft.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/pitch_melodia.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/pitch_yin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/pitch_yin_fft.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/predominant_pitch_melodia.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitch_extractors/spectral_peaks.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.carga_datos.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lectura_midi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.load.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/juliatortosa/PycharmProjects/AlgorithmAnalysis/datasets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.carga_datos.executor": "Run",
+    "Python.lectura_midi.executor": "Run",
+    "Python.load.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/juliatortosa/PycharmProjects/AlgorithmAnalysis/datasets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/datasets" />
@@ -243,7 +131,8 @@
       <workItem from="1713126854417" duration="55000" />
       <workItem from="1713126942466" duration="21000" />
       <workItem from="1713196983172" duration="41306000" />
-      <workItem from="1714321570818" duration="3021000" />
+      <workItem from="1714321570818" duration="3295000" />
+      <workItem from="1714404326001" duration="7434000" />
     </task>
     <task id="LOCAL-00001" summary="add all datasets + split files for reading datasets and loading midi">
       <option name="closed" value="true" />
@@ -253,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713981783268</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="new structure">
+      <option name="closed" value="true" />
+      <created>1714336280608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714336280608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,10 +186,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add all datasets + split files for reading datasets and loading midi" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all datasets + split files for reading datasets and loading midi" />
+    <MESSAGE value="new structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="new structure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1714336083300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1714416364834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$load.coverage" NAME="load Coverage Results" MODIFIED="1713979042907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets/traditional-flute-dataset" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$test.coverage" NAME="test Coverage Results" MODIFIED="1710170187975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$carga_datos.coverage" NAME="carga_datos Coverage Results" MODIFIED="1713979944481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
