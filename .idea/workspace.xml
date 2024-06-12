@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0eedf11-95a3-415d-8268-73d1b64d9d07" name="Changes" comment="new structure">
+    <list default="true" id="b0eedf11-95a3-415d-8268-73d1b64d9d07" name="Changes" comment="extract pitches from different extractors">
+      <change beforePath="$PROJECT_DIR$/.idea/AlgorithmAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithmAnalysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -59,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/juliatortosa/PycharmProjects/AlgorithmAnalysis/datasets",
+    "last_opened_file_path": "/Users/juliatortosa/PycharmProjects/AlgorithmAnalysis",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -132,7 +134,11 @@
       <workItem from="1713126942466" duration="21000" />
       <workItem from="1713196983172" duration="41306000" />
       <workItem from="1714321570818" duration="3295000" />
-      <workItem from="1714404326001" duration="7434000" />
+      <workItem from="1714404326001" duration="11467000" />
+      <workItem from="1715010885022" duration="5000" />
+      <workItem from="1715192493861" duration="6469000" />
+      <workItem from="1715424598665" duration="41000" />
+      <workItem from="1716194923406" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="add all datasets + split files for reading datasets and loading midi">
       <option name="closed" value="true" />
@@ -150,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714336280608</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="extract pitches from different extractors">
+      <option name="closed" value="true" />
+      <created>1714416701455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714416701455</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,10 +201,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add all datasets + split files for reading datasets and loading midi" />
     <MESSAGE value="new structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="new structure" />
+    <MESSAGE value="extract pitches from different extractors" />
+    <option name="LAST_COMMIT_MESSAGE" value="extract pitches from different extractors" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1714416364834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AlgorithmAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1715424626411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$load.coverage" NAME="load Coverage Results" MODIFIED="1713979042907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets/traditional-flute-dataset" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$test.coverage" NAME="test Coverage Results" MODIFIED="1710170187975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AlgorithmAnalysis$carga_datos.coverage" NAME="carga_datos Coverage Results" MODIFIED="1713979944481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
