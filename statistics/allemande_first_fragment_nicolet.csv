@@ -1,0 +1,12 @@
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"509,288","320,356"
+PitchYin,"476,800","419,361"
+PitchYinFFT,"504,213","253,056"
+PitchHPS,"544,658","208,178"
+Ground-Truth,"604,566","241,921"
+
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,822","0,226","0,689","0,693"
+PitchYin,"1,000","0,997","0,507","0,485"
+PitchYinFFT,"1,000","0,997","0,558","0,534"
+PitchHPS,"1,000","0,997","0,502","0,480"

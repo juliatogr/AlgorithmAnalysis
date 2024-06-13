@@ -19,7 +19,7 @@ def get_rtf(extractor, audio, frame_splitting):
 
     if frame_splitting:
         pitches = []
-        for frame in ess.FrameGenerator(audio, frameSize=framesize, hopSize=hopsize,  startFromZero=True):
+        for frame in ess.FrameGenerator(audio, frameSize=framesize, hopSize=hopsize):
             pitch, confidence = extractor(frame)
             pitches.append(pitch)
     else:
@@ -38,13 +38,11 @@ def main():
     audio = audio_loader()
 
     rtf_melodia = get_rtf(ess.PitchMelodia(frameSize=framesize, hopSize=hopsize), audio, False)
-    rtf_predominantmelodia = get_rtf(ess.PredominantPitchMelodia(frameSize=framesize, hopSize=hopsize), audio, False)
     rtf_yin = get_rtf(ess.PitchYin(), audio, True)
     rtf_yinfft = get_rtf(ess.PitchYinFFT(), audio, True)
     rtf_hps = get_rtf(ess.PitchHPS(), audio, True)
 
     print(f"RTF Melodia: {rtf_melodia:.4f}")
-    print(f"RTF PredominantMelodia: {rtf_predominantmelodia:.4f}")
     print(f"RTF Yin: {rtf_yin:.4f}")
     print(f"RTF YinFFT: {rtf_yinfft:.4f}")
     print(f"RTF HPS: {rtf_hps:.4f}")
