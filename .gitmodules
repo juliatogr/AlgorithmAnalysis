@@ -1,0 +1,3 @@
+[submodule "datasets/medleydb"]
+	path = datasets/medleydb
+	url = https://github.com/marl/medleydb.git

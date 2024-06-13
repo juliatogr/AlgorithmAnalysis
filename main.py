@@ -102,7 +102,7 @@ def align_pitches(audio_pitches, midi_notes):
 
 def main():
     # audio_filename = './datasets/traditional-flute-dataset/audio/allemande_fifth_fragment_preston_resampled.wav'
-    audio_filename = './datasets/recordings/C Scale 2.wav'
+    audio_filename = './datasets/Bad recordings/C Scale 1.wav'
     # midi_filename = "datasets/generated_scales/C Major/C Scale .mid"
     #
     audio_loader = ess.MonoLoader(filename=audio_filename)
@@ -122,27 +122,29 @@ def main():
 
     audio = np.array(combined_signal / np.max(np.abs(combined_signal)), dtype=np.float32)
 
+
+
     # # midi_notes = load_midi(midi_filename)
     # #
     # eq_loudness = ess.EqualLoudness()
     # cleaned_audio = eq_loudness(audio)
 
-    melodia = ess.PitchMelodia(frameSize=framesize, hopSize=hopsize)
-    pitches_melodia = compute_pitches_no_frames(audio[1000:1000+2*framesize], melodia)
-
-    # aligned_pitches, aligned_times = align_pitches(pitches_melodia,  midi_notes)
+    # melodia = ess.PitchMelodia(frameSize=framesize, hopSize=hopsize)
+    # pitches_melodia = compute_pitches_no_frames(audio[1000:1000+2*framesize], melodia)
     #
-    # print("*****Midi*****")
-    # print(f'    - length {len(aligned_pitches)}')
-    # print(f'    - length {aligned_times}')
-
-    # accuracy = mir_eval.melody.evaluate(np.asarray(midi_notes)[:,0], np.asarray(midi_notes)[:,1], np.asarray(aligned_pitches), np.asarray(aligned_times))
-    # print(f" Melodia Accuracy: {accuracy}")
-
-    print("*****PitchMelodia*****")
-    # print(type(pitches_melodia)) #numpy.ndarray
-    print(f'    - pitches: {pitches_melodia}')
-    # print(f'    - length {len(pitches_melodia)}')
+    # # aligned_pitches, aligned_times = align_pitches(pitches_melodia,  midi_notes)
+    # #
+    # # print("*****Midi*****")
+    # # print(f'    - length {len(aligned_pitches)}')
+    # # print(f'    - length {aligned_times}')
+    #
+    # # accuracy = mir_eval.melody.evaluate(np.asarray(midi_notes)[:,0], np.asarray(midi_notes)[:,1], np.asarray(aligned_pitches), np.asarray(aligned_times))
+    # # print(f" Melodia Accuracy: {accuracy}")
+    #
+    # print("*****PitchMelodia*****")
+    # # print(type(pitches_melodia)) #numpy.ndarray
+    # print(f'    - pitches: {pitches_melodia}')
+    # # print(f'    - length {len(pitches_melodia)}')
 
     # predominant_melodia = ess.PredominantPitchMelodia(frameSize=framesize, hopSize=hopsize)
     # pitches_predominant_melodia = compute_pitches_no_frames(audio, predominant_melodia)
