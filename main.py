@@ -4,6 +4,7 @@ import sys
 
 sys.path.append('./datasets/traditional-flute-dataset/')
 import load as ld
+
 import mir_eval
 import numpy as np
 import time
@@ -108,6 +109,10 @@ def main():
     audio_loader = ess.MonoLoader(filename=audio_filename)
     audio = audio_loader()
 
+    fragments = ld.list_of_fragments('./datasets/Kaggle/traditional-flute-dataset/dataset.csv')
+    fragment = fragments[10]
+    print('fragment: ' + fragment)
+
     duration = 1.5
     fundamental_freq = 132
 
@@ -190,6 +195,12 @@ def main():
     # print(type(pitches_yinprobabilities))  #list
     # print(f'    - pitches: {pitches_yinprobabilities}')
     # print(f'    - length: {len(pitches_yinprobabilities)}')
+
+    end_time = time.time()
+    execution_time = end_time - start_time
+
+    audio_dur = len(audio)/sr
+    rtf = execution_time/audio_dur
 
 
 
