@@ -1,0 +1,390 @@
+allemande_first_fragment_nicolet
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"509,288","320,356"
+PitchYin,"476,800","419,361"
+PitchYinFFT,"504,213","253,056"
+PitchHPS,"544,658","208,178"
+Ground-Truth,"604,566","241,921"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,822","0,226","0,689","0,693"
+PitchYin,"1,000","0,997","0,507","0,485"
+PitchYinFFT,"1,000","0,997","0,558","0,534"
+PitchHPS,"1,000","0,997","0,502","0,480"
+
+allemande_first_fragment_larrieu
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"519,393","302,822"
+PitchYin,"491,276","548,570"
+PitchYinFFT,"500,531","239,387"
+PitchHPS,"501,840","181,719"
+Ground-Truth,"626,747","236,543"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,841","0,184","0,744","0,746"
+PitchYin,"1,000","0,995","0,565","0,550"
+PitchYinFFT,"1,000","0,995","0,575","0,560"
+PitchHPS,"1,000","0,995","0,471","0,459"
+
+allemande_second_fragment_gerard
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"532,336","307,134"
+PitchYin,"513,977","374,091"
+PitchYinFFT,"547,953","223,560"
+PitchHPS,"594,025","171,253"
+Ground-Truth,"626,953","215,466"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,824","0,226","0,728","0,730"
+PitchYin,"1,000","0,997","0,539","0,515"
+PitchYinFFT,"1,000","0,997","0,600","0,574"
+PitchHPS,"1,000","0,997","0,706","0,674"
+
+allemande_second_fragment_preston
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"453,080","278,763"
+PitchYin,"468,309","268,575"
+PitchYinFFT,"498,816","200,834"
+PitchHPS,"428,696","201,236"
+Ground-Truth,"603,197","212,412"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,816","0,003","0,026","0,066"
+PitchYin,"1,000","0,997","0,028","0,027"
+PitchYinFFT,"1,000","0,997","0,041","0,040"
+PitchHPS,"1,000","0,997","0,010","0,010"
+
+allemande_third_fragment_rampal
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"468,922","252,045"
+PitchYin,"436,034","231,475"
+PitchYinFFT,"480,919","200,422"
+PitchHPS,"499,811","141,868"
+Ground-Truth,"536,837","190,200"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,870","0,005","0,757","0,767"
+PitchYin,"1,000","0,995","0,573","0,551"
+PitchYinFFT,"1,000","0,995","0,616","0,592"
+PitchHPS,"1,000","0,995","0,606","0,582"
+
+allemande_third_fragment_nicolet
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"445,228","268,198"
+PitchYin,"409,703","256,821"
+PitchYinFFT,"461,029","217,158"
+PitchHPS,"494,964","150,311"
+Ground-Truth,"559,015","155,431"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,792","0,000","0,649","0,651"
+PitchYin,"1,000","0,933","0,421","0,420"
+PitchYinFFT,"1,000","0,933","0,504","0,503"
+PitchHPS,"1,000","0,933","0,588","0,586"
+
+allemande_fourth_fragment_larrieu
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"513,903","273,590"
+PitchYin,"462,204","362,812"
+PitchYinFFT,"489,367","222,609"
+PitchHPS,"503,125","173,646"
+Ground-Truth,"581,338","193,624"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,852","0,522","0,625","0,620"
+PitchYin,"1,000","0,995","0,485","0,470"
+PitchYinFFT,"1,000","0,995","0,474","0,459"
+PitchHPS,"1,000","0,995","0,519","0,502"
+
+allemande_fourth_fragment_gerard
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"456,697","290,685"
+PitchYin,"448,509","362,174"
+PitchYinFFT,"459,220","206,302"
+PitchHPS,"527,027","161,141"
+Ground-Truth,"558,825","188,779"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,787","0,152","0,709","0,713"
+PitchYin,"1,000","0,994","0,561","0,545"
+PitchYinFFT,"1,000","0,994","0,546","0,530"
+PitchHPS,"1,000","0,994","0,674","0,655"
+
+allemande_fifth_fragment_preston
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"700,549","471,850"
+PitchYin,"653,097","462,250"
+PitchYinFFT,"648,975","433,763"
+PitchHPS,"627,803","427,605"
+Ground-Truth,"764,481","441,873"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,845","0,963","0,005","0,007"
+PitchYin,"1,000","0,998","0,008","0,008"
+PitchYinFFT,"1,000","0,998","0,012","0,011"
+PitchHPS,"1,000","0,998","0,002","0,002"
+
+allemande_fifth_fragment_rampal
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"632,064","356,821"
+PitchYin,"757,340","664,206"
+PitchYinFFT,"759,011","561,292"
+PitchHPS,"732,397","475,600"
+Ground-Truth,"768,518","468,929"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,827","0,869","0,223","0,215"
+PitchYin,"1,000","0,998","0,237","0,216"
+PitchYinFFT,"1,000","0,998","0,239","0,217"
+PitchHPS,"1,000","0,998","0,214","0,194"
+
+syrinx_first_fragment_douglas
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"579,786","336,241"
+PitchYin,"1909,595","4853,046"
+PitchYinFFT,"668,978","307,793"
+PitchHPS,"615,761","303,027"
+Ground-Truth,"597,296","322,368"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,966","0,018","0,928","0,936"
+PitchYin,"1,000","0,905","0,840","0,727"
+PitchYinFFT,"1,000","0,905","0,879","0,760"
+PitchHPS,"1,000","0,905","0,921","0,795"
+
+syrinx_first_fragment_bernold
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"540,268","370,342"
+PitchYin,"1084,593","3013,216"
+PitchYinFFT,"631,018","311,478"
+PitchHPS,"541,135","347,151"
+Ground-Truth,"611,426","346,719"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,903","0,000","0,877","0,898"
+PitchYin,"1,000","0,999","0,916","0,756"
+PitchYinFFT,"1,000","0,999","0,928","0,766"
+PitchHPS,"1,000","0,999","0,817","0,674"
+
+syrinx_second_fragment_dwyer
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"637,672","388,210"
+PitchYin,"920,361","1898,919"
+PitchYinFFT,"684,478","325,808"
+PitchHPS,"637,083","323,049"
+Ground-Truth,"657,224","367,638"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,951","0,008","0,918","0,925"
+PitchYin,"1,000","0,999","0,912","0,824"
+PitchYinFFT,"1,000","0,999","0,936","0,846"
+PitchHPS,"1,000","0,999","0,849","0,766"
+
+syrinx_second_fragment_bourdin
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"633,090","418,591"
+PitchYin,"1613,920","3650,384"
+PitchYinFFT,"657,319","383,748"
+PitchHPS,"612,133","410,975"
+Ground-Truth,"651,945","413,375"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,953","0,108","0,914","0,910"
+PitchYin,"1,000","0,999","0,886","0,739"
+PitchYinFFT,"1,000","0,999","0,899","0,750"
+PitchHPS,"1,000","0,999","0,832","0,694"
+
+syrinx_third_fragment_rhodes
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"350,157","190,803"
+PitchYin,"1155,819","3953,679"
+PitchYinFFT,"692,160","2495,349"
+PitchHPS,"385,942","165,056"
+Ground-Truth,"367,031","192,934"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,902","0,257","0,179","0,244"
+PitchYin,"1,000","0,999","0,301","0,266"
+PitchYinFFT,"1,000","0,999","0,330","0,292"
+PitchHPS,"1,000","0,999","0,265","0,234"
+
+syrinx_third_fragment_douglas
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"287,887","262,100"
+PitchYin,"401,766","300,640"
+PitchYinFFT,"398,999","157,750"
+PitchHPS,"435,649","159,224"
+Ground-Truth,"396,503","168,051"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,678","0,000","0,573","0,592"
+PitchYin,"1,000","0,998","0,802","0,767"
+PitchYinFFT,"1,000","0,998","0,872","0,833"
+PitchHPS,"1,000","0,998","0,806","0,770"
+
+syrinx_fourth_fragment_bernold
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"455,007","261,642"
+PitchYin,"505,612","856,485"
+PitchYinFFT,"477,007","210,407"
+PitchHPS,"459,203","228,325"
+Ground-Truth,"454,655","225,549"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,889","0,446","0,667","0,658"
+PitchYin,"1,000","0,998","0,747","0,687"
+PitchYinFFT,"1,000","0,998","0,746","0,686"
+PitchHPS,"1,000","0,998","0,677","0,623"
+
+syrinx_fourth_fragment_dwyer
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"478,753","275,181"
+PitchYin,"587,360","1013,883"
+PitchYinFFT,"525,772","212,646"
+PitchHPS,"529,210","191,371"
+Ground-Truth,"489,188","241,514"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,901","0,232","0,816","0,812"
+PitchYin,"1,000","0,999","0,828","0,752"
+PitchYinFFT,"1,000","0,999","0,845","0,768"
+PitchHPS,"1,000","0,999","0,829","0,754"
+
+syrinx_fifth_fragment_bourdin
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"397,797","329,236"
+PitchYin,"1393,833","3851,952"
+PitchYinFFT,"453,879","282,259"
+PitchHPS,"387,989","313,539"
+Ground-Truth,"431,457","310,959"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,801","0,572","0,466","0,461"
+PitchYin,"1,000","1,000","0,548","0,474"
+PitchYinFFT,"1,000","1,000","0,557","0,482"
+PitchHPS,"1,000","1,000","0,492","0,426"
+
+syrinx_fifth_fragment_rhodes
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"423,482","293,123"
+PitchYin,"2673,489","6482,611"
+PitchYinFFT,"1760,523","5082,375"
+PitchHPS,"407,136","294,850"
+Ground-Truth,"429,482","305,335"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,901","0,717","0,295","0,293"
+PitchYin,"1,000","1,000","0,358","0,298"
+PitchYinFFT,"1,000","1,000","0,376","0,313"
+PitchHPS,"1,000","1,000","0,552","0,460"
+
+density_first_fragment_zoon
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"498,463","305,001"
+PitchYin,"589,320","1062,464"
+PitchYinFFT,"542,303","326,105"
+PitchHPS,"537,259","290,809"
+Ground-Truth,"477,719","303,441"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,972","0,448","0,882","0,843"
+PitchYin,"1,000","1,000","0,890","0,784"
+PitchYinFFT,"1,000","1,000","0,901","0,793"
+PitchHPS,"1,000","1,000","0,823","0,725"
+
+density_second_fragment_zoon
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"530,269","485,891"
+PitchYin,"735,863","559,763"
+PitchYinFFT,"724,277","400,463"
+PitchHPS,"684,974","405,146"
+Ground-Truth,"611,551","441,059"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,746","0,563","0,699","0,657"
+PitchYin,"1,000","0,999","0,922","0,775"
+PitchYinFFT,"1,000","0,999","0,918","0,772"
+PitchHPS,"1,000","0,999","0,854","0,718"
+
+density_third_fragment_zoon
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"439,027","419,015"
+PitchYin,"536,725","1026,132"
+PitchYinFFT,"518,254","411,420"
+PitchHPS,"457,504","433,599"
+Ground-Truth,"425,562","449,493"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,755","0,714","0,722","0,561"
+PitchYin,"1,000","1,000","0,854","0,538"
+PitchYinFFT,"1,000","1,000","0,837","0,528"
+PitchHPS,"1,000","1,000","0,816","0,514"
+
+density_fourth_fragment_beauregard
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"743,900","559,196"
+PitchYin,"977,469","978,981"
+PitchYinFFT,"870,751","469,790"
+PitchHPS,"905,259","471,509"
+Ground-Truth,"847,561","546,791"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,868","0,066","0,584","0,638"
+PitchYin,"1,000","0,999","0,693","0,585"
+PitchYinFFT,"1,000","0,999","0,652","0,551"
+PitchHPS,"1,000","0,999","0,564","0,477"
+
+density_fifth_fragment_beauregard
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"797,799","397,025"
+PitchYin,"1683,957","2581,124"
+PitchYinFFT,"1189,266","872,108"
+PitchHPS,"1180,415","859,254"
+Ground-Truth,"1097,715","931,293"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,965","0,997","0,492","0,408"
+PitchYin,"1,000","1,000","0,947","0,784"
+PitchYinFFT,"1,000","1,000","0,883","0,731"
+PitchHPS,"1,000","1,000","0,873","0,723"
+
+density_sixth_fragment_beauregard
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"490,353","404,486"
+PitchYin,"720,619","546,030"
+PitchYinFFT,"700,387","507,991"
+PitchHPS,"681,417","480,241"
+Ground-Truth,"618,258","481,026"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,808","0,102","0,641","0,666"
+PitchYin,"1,000","0,999","0,855","0,771"
+PitchYinFFT,"1,000","0,999","0,855","0,770"
+PitchHPS,"1,000","0,999","0,771","0,695"
+
+sequenza_first_fragment_robison
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"627,019","430,536"
+PitchYin,"947,071","2449,713"
+PitchYinFFT,"910,536","2369,982"
+PitchHPS,"624,346","498,150"
+Ground-Truth,"654,321","428,323"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,841","0,702","0,694","0,643"
+PitchYin,"1,000","0,999","0,667","0,580"
+PitchYinFFT,"1,000","0,999","0,636","0,554"
+PitchHPS,"1,000","0,999","0,569","0,495"
+
+sequenza_second_fragment_robison
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"583,990","506,485"
+PitchYin,"727,096","540,919"
+PitchYinFFT,"709,634","416,108"
+PitchHPS,"646,210","362,691"
+Ground-Truth,"657,298","428,172"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,665","0,803","0,508","0,461"
+PitchYin,"1,000","0,999","0,599","0,510"
+PitchYinFFT,"1,000","0,999","0,598","0,509"
+PitchHPS,"1,000","0,999","0,619","0,527"
+
+sequenza_fourth_fragment_robison
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"320,309","292,275"
+PitchYin,"540,154","1282,704"
+PitchYinFFT,"463,829","311,645"
+PitchHPS,"402,973","297,360"
+Ground-Truth,"465,493","358,369"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,736","0,322","0,529","0,551"
+PitchYin,"1,000","1,000","0,637","0,543"
+PitchYinFFT,"1,000","1,000","0,721","0,613"
+PitchHPS,"1,000","1,000","0,548","0,466"
+
+sequenza_sixth_fragment_robison
+Pitch Method,Mean,Standard Deviation
+PitchMelodia,"563,892","504,289"
+PitchYin,"702,024","546,595"
+PitchYinFFT,"642,754","405,004"
+PitchHPS,"581,476","351,789"
+Ground-Truth,"688,666","486,958"
+Pitch Method,Voicing Recall,Voicing False Alarm,Raw Pitch Accuracy,Overall Accuracy
+PitchMelodia,"0,767","0,266","0,179","0,279"
+PitchYin,"1,000","0,999","0,242","0,198"
+PitchYinFFT,"1,000","0,999","0,221","0,182"
+PitchHPS,"1,000","0,999","0,230","0,189"
+
