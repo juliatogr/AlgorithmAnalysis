@@ -126,29 +126,29 @@ def main():
         except Exception as e:
             print(f'Error in {fragment}: {e}')
 
-        csv_file = f'./statistics/melodia_stats.csv'
+        csv_file = f'./statistics/8192/melodia_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(melodia_data)
 
-        csv_file = f'./statistics/yin_stats.csv'
+        csv_file = f'./statistics/8192/yin_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(yin_data)
 
-        csv_file = f'./statistics/yinfft_stats.csv'
+        csv_file = f'./statistics/8192/yinfft_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(yinfft_data)
 
-        csv_file = f'./statistics/hps_stats.csv'
+        csv_file = f'./statistics/8192/hps_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(hps_data)
 
 
 def format_number(value):
-    return f'{value:.3f}'.replace('.', ',')
+    return f'{value:.4f}'.replace('.', ',')
 
 
 if __name__ == "__main__":
