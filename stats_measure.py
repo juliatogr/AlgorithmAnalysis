@@ -43,7 +43,7 @@ def compute_pitches_no_frames(audio, extractor):
 
 
 def main():
-    metrics = ['Voicing Recall', 'Voicing False Alarm', 'Raw Pitch Accuracy', 'Overall Accuracy']
+    metrics = ['Voicing Recall', 'Voicing False Alarm', 'Raw Pitch Accuracy', 'Raw Chroma Accuracy', 'Overall Accuracy']
     header = copy.deepcopy(metrics)
     header.insert(0, 'Audio Fragment')
 
@@ -107,16 +107,20 @@ def main():
 
             melodia_data.append(
                 [fragment, format_number(melodia_metrics[metrics[0]]), format_number(melodia_metrics[metrics[1]]),
-                 format_number(melodia_metrics[metrics[2]]), format_number(melodia_metrics[metrics[3]])])
+                 format_number(melodia_metrics[metrics[2]]), format_number(melodia_metrics[metrics[3]]),
+                 format_number(melodia_metrics[metrics[4]])])
             yin_data.append(
                 [fragment, format_number(yin_metrics[metrics[0]]), format_number(yin_metrics[metrics[1]]),
-                 format_number(yin_metrics[metrics[2]]), format_number(yin_metrics[metrics[3]])])
+                 format_number(yin_metrics[metrics[2]]), format_number(yin_metrics[metrics[3]]),
+                 format_number(yin_metrics[metrics[4]])])
             yinfft_data.append(
                 [fragment, format_number(yinfft_metrics[metrics[0]]), format_number(yinfft_metrics[metrics[1]]),
-                 format_number(yinfft_metrics[metrics[2]]), format_number(yinfft_metrics[metrics[3]])])
+                 format_number(yinfft_metrics[metrics[2]]), format_number(yinfft_metrics[metrics[3]]),
+                 format_number(yinfft_metrics[metrics[4]])])
             hps_data.append(
                 [fragment, format_number(hps_metrics[metrics[0]]), format_number(hps_metrics[metrics[1]]),
-                 format_number(hps_metrics[metrics[2]]), format_number(hps_metrics[metrics[3]])])
+                 format_number(hps_metrics[metrics[2]]), format_number(hps_metrics[metrics[3]]),
+                 format_number(hps_metrics[metrics[4]])])
 
 
         except Exception as e:
