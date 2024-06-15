@@ -1,8 +1,6 @@
 import essentia
 import essentia.standard as esstd
 import essentia.streaming as esstr
-import sys
-sys.path.append('./datasets/traditional-flute-dataset/')
 import matplotlib.pyplot as plt
 
 hopsize = 128
@@ -11,7 +9,7 @@ sample_rate = 44100
 num_hps = 5
 
 def main():
-    audio_filename = './datasets/Kaggle/traditional-flute-dataset/audio/allemande_fifth_fragment_preston.wav'
+    audio_filename = './datasets/Traditional Flute/audio/allemande_fifth_fragment_preston.wav'
 
     spectrum = esstd.Spectrum()
     w = esstd.Windowing(type='hann')

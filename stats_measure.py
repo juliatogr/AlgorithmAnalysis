@@ -3,7 +3,7 @@ import copy
 import essentia.standard as ess
 import sys
 
-sys.path.append('./datasets/Kaggle/traditional-flute-dataset/')
+sys.path.append('./datasets/Traditional Flute/')
 import numpy as np
 import csv
 import load as ld
@@ -52,15 +52,15 @@ def main():
     yinfft_data = [header]
     hps_data = [header]
 
-    fragments = ld.list_of_fragments('./datasets/Kaggle/traditional-flute-dataset/dataset.csv')
+    fragments = ld.list_of_fragments('./datasets/Traditional Flute/dataset.csv')
 
     for fragment in fragments:
 
         # load files: audio, gt
-        audio_file = './datasets/Kaggle/traditional-flute-dataset/audio/' + fragment + '.wav'
+        audio_file = './datasets/Traditional Flute/audio/' + fragment + '.wav'
         audio, t, fs = ld.audio(audio_file)
 
-        gt_file = './datasets/Kaggle/traditional-flute-dataset/ground_truth/' + fragment + '.gt'
+        gt_file = './datasets/Traditional Flute/ground_truth/' + fragment + '.gt'
         gt_onset, gt_note, gt_duration = ld.ground_truth(gt_file)
         gt_array, gt_t, gt_index = ld.to_array(gt_onset, gt_note, gt_duration, fs, hopsize)
 

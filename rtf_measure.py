@@ -1,9 +1,4 @@
 import essentia.standard as ess
-import sys
-
-import matplotlib.pyplot as plt
-
-sys.path.append('./datasets/traditional-flute-dataset/')
 import time
 
 
@@ -32,7 +27,7 @@ def get_rtf(extractor, audio, frame_splitting):
 
 
 def main():
-    audio_filename = './datasets/Kaggle/traditional-flute-dataset/audio/allemande_fifth_fragment_preston_resampled.wav'
+    audio_filename = './datasets/Traditional Flute/audio/allemande_fifth_fragment_preston_resampled.wav'
 
     audio_loader = ess.MonoLoader(filename=audio_filename)
     audio = audio_loader()

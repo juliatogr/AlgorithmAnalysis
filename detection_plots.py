@@ -1,10 +1,6 @@
 import essentia.standard as ess
-import sys
-sys.path.append('./datasets/traditional-flute-dataset/')
 import numpy as np
 import matplotlib.pyplot as plt
-import csv
-
 
 
 spectrum = ess.Spectrum()
@@ -41,7 +37,7 @@ def compute_pitches_no_frames(audio, extractor):
 
 
 def main():
-    audio_filename = './datasets/Kaggle/traditional-flute-dataset/audio/allemande_fifth_fragment_preston.wav'
+    audio_filename = './datasets/Traditional Flute/audio/allemande_fifth_fragment_preston.wav'
     # audio_filename = './datasets/GOOD-SOUNDS/good-sounds/sound_files/flute_almudena_dynamics_change/neumann/0000.wav'
 
     audio_loader = ess.MonoLoader(filename=audio_filename)
