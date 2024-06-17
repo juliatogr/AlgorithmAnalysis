@@ -105,10 +105,10 @@ def main():
         pitches_hps = np.interp(new_indices, old_indices, pitches_hps)
 
         try:
-            melodia_metrics = mel.evaluate(gt_t, gt_array, times, pitches_melodia, cent_tolerance=70)
-            yin_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yin, cent_tolerance=70)
-            yinfft_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yinfft, cent_tolerance=70)
-            hps_metrics = mel.evaluate(gt_t, gt_array, times, pitches_hps, cent_tolerance=70)
+            melodia_metrics = mel.evaluate(gt_t, gt_array, times, pitches_melodia)
+            yin_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yin)
+            yinfft_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yinfft)
+            hps_metrics = mel.evaluate(gt_t, gt_array, times, pitches_hps)
 
             melodia_data.append(
                 [fragment, format_number(melodia_metrics[metrics[0]]), format_number(melodia_metrics[metrics[1]]),
