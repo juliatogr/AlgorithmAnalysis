@@ -57,9 +57,14 @@ def main():
     for fragment in fragments:
 
         # load files: audio, gt
-        audio_file = './datasets/Traditional Flute/audio/' + fragment + '.wav'
-        audio, t, fs = ld.audio(audio_file)
+        audio_file = './datasets/Traditional Flute/audio/' + fragment + '_resampled.wav'
 
+        try:
+            audio, t, fs = ld.audio(audio_file)
+        except Exception as e:
+            audio_file = './datasets/Traditional Flute/audio/' + fragment + '.wav'
+
+        audio, t, fs = ld.audio(audio_file)
         gt_file = './datasets/Traditional Flute/ground_truth/' + fragment + '.gt'
         gt_onset, gt_note, gt_duration = ld.ground_truth(gt_file)
         gt_array, gt_t, gt_index = ld.to_array(gt_onset, gt_note, gt_duration, fs, hopsize)
@@ -100,10 +105,10 @@ def main():
         pitches_hps = np.interp(new_indices, old_indices, pitches_hps)
 
         try:
-            melodia_metrics = mel.evaluate(gt_t, gt_array, times, pitches_melodia)
-            yin_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yin)
-            yinfft_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yinfft)
-            hps_metrics = mel.evaluate(gt_t, gt_array, times, pitches_hps)
+            melodia_metrics = mel.evaluate(gt_t, gt_array, times, pitches_melodia, cent_tolerance=70)
+            yin_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yin, cent_tolerance=70)
+            yinfft_metrics = mel.evaluate(gt_t, gt_array, times, pitches_yinfft, cent_tolerance=70)
+            hps_metrics = mel.evaluate(gt_t, gt_array, times, pitches_hps, cent_tolerance=70)
 
             melodia_data.append(
                 [fragment, format_number(melodia_metrics[metrics[0]]), format_number(melodia_metrics[metrics[1]]),
@@ -126,22 +131,22 @@ def main():
         except Exception as e:
             print(f'Error in {fragment}: {e}')
 
-        csv_file = f'./statistics/8192/melodia_stats.csv'
+        csv_file = f'./statistics/melodia_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(melodia_data)
 
-        csv_file = f'./statistics/8192/yin_stats.csv'
+        csv_file = f'./statistics/yin_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(yin_data)
 
-        csv_file = f'./statistics/8192/yinfft_stats.csv'
+        csv_file = f'./statistics/yinfft_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(yinfft_data)
 
-        csv_file = f'./statistics/8192/hps_stats.csv'
+        csv_file = f'./statistics/hps_stats.csv'
         with open(csv_file, 'w', newline='') as file:
             writer = csv.writer(file)
             writer.writerows(hps_data)

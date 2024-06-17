@@ -27,13 +27,12 @@ def main():
     fig, ax = plt.subplots(1, 1, figsize=(15, 8))
     ax.plot(pitches, label='HPS')
     ax.set_xlabel('Frames')
-    ax.set_ylabel('Estimated pitch')
+    ax.set_ylabel('Estimated pitch (Standard)')
     ax.set_xlim(1000, 2000)
     ax.set_ylim(0, 1000)
     ax.legend()
     plt.tight_layout()
     plt.show()
-    fig.savefig("./images/standard.png")
 
     # Streaming
     loader = esstr.MonoLoader(filename=audio_filename)
@@ -56,13 +55,12 @@ def main():
     fig, ax = plt.subplots(1, 1, figsize=(15, 8))
     ax.plot(pool['pitches_hps'], label='HPS')
     ax.set_xlabel('Frames')
-    ax.set_ylabel('Estimated pitch')
+    ax.set_ylabel('Estimated pitch (Streaming)')
     ax.set_xlim(1000, 2000)
     ax.set_ylim(0, 1000)
     ax.legend()
     plt.tight_layout()
     plt.show()
-    fig.savefig("./images/streaming.png")
 
 
 

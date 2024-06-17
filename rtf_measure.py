@@ -27,7 +27,7 @@ def get_rtf(extractor, audio, frame_splitting):
 
 
 def main():
-    audio_filename = './datasets/Traditional Flute/audio/allemande_fifth_fragment_preston_resampled.wav'
+    audio_filename = './datasets/Traditional Flute/audio/syrinx_fifth_fragment_bourdin.wav'
 
     audio_loader = ess.MonoLoader(filename=audio_filename)
     audio = audio_loader()
